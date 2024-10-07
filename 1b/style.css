@@ -1,0 +1,50 @@
+/* h1{
+    color: green;
+} */
+ /* *{
+    margin: 0;
+    padding: 0;
+ } */
+ body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, serif;
+    font-size: 12px;
+    font-weight: normal;
+    /* Same as above */
+    /* font:normal 16px Arial,Helvetica,serif; */
+    line-height: 1.6em;
+    margin: 0;
+
+ }
+ .container{
+    width: 80%;
+    margin: auto;
+
+ }
+ .box-1{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    /* For every side  */
+    border: 5px solid red ; 
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    /* for all side */
+    padding: 20mm;
+    margin-top: 20px;
+    margin: 20px 0;
+
+
+
+
+ }
+ .box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+ }
